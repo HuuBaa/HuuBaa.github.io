@@ -1,3 +1,11 @@
-h1{
-  color:green;
+.row div div {
+  height: 200px;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #cccccc;
+}
+.row div div:hover {
+  box-shadow: 0 0 8px #330000;
+}
+.nav {
+  height: 200px;
 }
