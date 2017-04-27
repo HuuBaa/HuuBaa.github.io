@@ -1,11 +1,34 @@
-.row div div {
+.search>div>div>div {
   height: 200px;
   border: 1px solid #cccccc;
-  box-shadow: 5px 5px 5px #cccccc;
 }
-.row div div:hover {
-  box-shadow: 0 0 8px #330000;
+
+.b-form div{
+    padding: 0;
+    padding-top: 10px;
 }
-.nav {
-  height: 200px;
+.baiduinput {
+  width: 100%;
+  height: 46px;
+}
+
+.baidu-logo{
+    height:60px;
+    margin-bottom: 15px;
+}
+.contents .sidebar div {
+  height: 800px;
+  border: 1px solid #cccccc;
+}
+.contents .hrefs > div {
+  height: 800px;
+  border: 1px solid #cccccc;
+}
+.href-item div {
+  height: 235px;
+  border: 1px solid #cccccc;
+  font-size: 20px;
+}
+.href-item {
+  padding: 15px;
 }
