@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Huu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    
+    <div class="dropdown">
+        <button class="dropdown-toggle btn btn-default" type="button" data-toggle="dropdown">
+            菜单实例
+            <span class="caret"></span>
+        </button>
+        
+        <ul class="dropdown-menu">
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">1</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">标题</li>
+            <li class="disabled"><a href="#">1</a></li>
+        </ul>
+        
+    </div>
+
+<!-- 
+tabindex="-1" 控制tab选择时的顺序
+
+aria-label="读什么呢"  有label则不需设置
+aria-labelledby="dropdownMenu1"  盲人用，获取到焦点时会读出指定id元素，比aria-label优先
+-->
+    <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    下拉菜单
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+  </ul> 
+</div> 
+
+    <script src="jquery/jquery3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
